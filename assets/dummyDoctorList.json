@@ -1,0 +1,33 @@
+[
+    {
+      "name": "Dr. John Smith",
+      "specialty": "Internal Medicine",
+      "location": "City Hospital",
+      "phone": "123-456-7890"
+    },
+    {
+      "name": "Dr. Emily Johnson",
+      "specialty": "Internal Medicine",
+      "location": "County Medical Center",
+      "phone": "987-654-3210"
+    },
+    {
+      "name": "Dr. Sarah Davis",
+      "specialty": "Neurologist",
+      "location": "City Clinic",
+      "phone": "555-555-5555"
+    },
+    {
+      "name": "Dr. Michael Brown",
+      "specialty": "Neurologist",
+      "location": "County Neurology Center",
+      "phone": "777-888-9999"
+    },
+    {
+      "name": "Dr. Laura Wilson",
+      "specialty": "Gastroenterologist",
+      "location": "Gut Health Center",
+      "phone": "888-777-9999"
+    }
+  ]
+  

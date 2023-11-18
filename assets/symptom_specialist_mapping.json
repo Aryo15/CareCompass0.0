@@ -1,0 +1,808 @@
+{
+  "symptomSpecialistMapping": [
+    {
+      "symptom": "Fever",
+      "specialists": ["Internal Medicine", "Infectious Disease"]
+    },
+    {
+      "symptom": "Cough",
+      "specialists": ["Pulmonologist"]
+    },
+    {
+      "symptom": "Rash",
+      "specialists": ["Dermatologist"]
+    },
+    {
+      "symptom": "Headache",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Shortness of Breath",
+      "specialists": ["Pulmonologist", "Cardiologist"]
+    },
+    {
+      "symptom": "Abdominal Pain",
+      "specialists": ["Gastroenterologist"]
+    },
+    {
+      "symptom": "Joint Pain",
+      "specialists": ["Rheumatologist", "Orthopedic Surgeon"]
+    },
+    {
+      "symptom": "Fatigue",
+      "specialists": ["Internal Medicine"]
+    },
+    {
+      "symptom": "Chest Pain",
+      "specialists": ["Cardiologist"]
+    },
+    {
+      "symptom": "Sore Throat",
+      "specialists": ["Ear, Nose, and Throat (ENT) Specialist"]
+    },
+    {
+      "symptom": "Back Pain",
+      "specialists": ["Orthopedic Surgeon"]
+    },
+    {
+      "symptom": "Difficulty Swallowing",
+      "specialists": ["Gastroenterologist", "ENT Specialist"]
+    },
+    {
+      "symptom": "Vision Problems",
+      "specialists": ["Ophthalmologist"]
+    },
+    {
+      "symptom": "Nausea",
+      "specialists": ["Gastroenterologist"]
+    },
+    {
+      "symptom": "Vomiting",
+      "specialists": ["Gastroenterologist"]
+    },
+    {
+      "symptom": "Dizziness",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Chest Tightness",
+      "specialists": ["Cardiologist"]
+    },
+    {
+      "symptom": "Frequent Urination",
+      "specialists": ["Urologist"]
+    },
+    {
+      "symptom": "Chest Pressure",
+      "specialists": ["Cardiologist"]
+    },
+    {
+      "symptom": "Swelling",
+      "specialists": ["Rheumatologist", "Cardiologist"]
+    },
+    {
+      "symptom": "Migraine",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Stomach Cramps",
+      "specialists": ["Gastroenterologist"]
+    },
+    {
+      "symptom": "Difficulty Breathing",
+      "specialists": ["Pulmonologist", "Cardiologist"]
+    },
+    {
+      "symptom": "Joint Swelling",
+      "specialists": ["Rheumatologist", "Orthopedic Surgeon"]
+    },
+    {
+      "symptom": "Chest Discomfort",
+      "specialists": ["Cardiologist"]
+    },
+    {
+      "symptom": "Lightheadedness",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Frequent Headaches",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Stomach Bloating",
+      "specialists": ["Gastroenterologist"]
+    },
+    {
+      "symptom": "Foot Pain",
+      "specialists": ["Orthopedic Surgeon", "Podiatrist"]
+    },
+    {
+      "symptom": "Palpitations",
+      "specialists": ["Cardiologist"]
+    },
+    {
+      "symptom": "Chest Burning",
+      "specialists": ["Cardiologist", "Gastroenterologist"]
+    },
+    {
+      "symptom": "Memory Loss",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Bowel Changes",
+      "specialists": ["Gastroenterologist"]
+    },
+    {
+      "symptom": "Elbow Pain",
+      "specialists": ["Orthopedic Surgeon"]
+    },
+    {
+      "symptom": "Eye Redness",
+      "specialists": ["Ophthalmologist"]
+    },
+    {
+      "symptom": "Abdominal Cramps",
+      "specialists": ["Gastroenterologist"]
+    },
+    {
+      "symptom": "Knee Pain",
+      "specialists": ["Orthopedic Surgeon"]
+    },
+    {
+      "symptom": "Hearing Loss",
+      "specialists": ["Audiologist", "Ear, Nose, and Throat (ENT) Specialist"]
+    },
+    {
+      "symptom": "Constipation",
+      "specialists": ["Gastroenterologist"]
+    },
+    {
+      "symptom": "Wrist Pain",
+      "specialists": ["Orthopedic Surgeon"]
+    },
+    {
+      "symptom": "Coughing Blood",
+      "specialists": ["Pulmonologist"]
+    },
+    {
+      "symptom": "Ear Pain",
+      "specialists": ["Ear, Nose, and Throat (ENT) Specialist"]
+    },
+    {
+      "symptom": "Chest Fluttering",
+      "specialists": ["Cardiologist"]
+    },
+    {
+      "symptom": "Throat Clearing",
+      "specialists": ["Ear, Nose, and Throat (ENT) Specialist"]
+    },
+    {
+      "symptom": "Hand Numbness",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Bowel Urgency",
+      "specialists": ["Gastroenterologist"]
+    },
+    {
+      "symptom": "Hip Pain",
+      "specialists": ["Orthopedic Surgeon"]
+    },
+    {
+      "symptom": "Frequent Infections",
+      "specialists": ["Infectious Disease"]
+    },
+    {
+      "symptom": "Stiff Neck",
+      "specialists": ["Neurologist", "Orthopedic Surgeon"]
+    },
+    {
+      "symptom": "Muscle Weakness",
+      "specialists": ["Neurologist", "Rheumatologist"]
+    },
+    {
+      "symptom": "Chest Congestion",
+      "specialists": ["Pulmonologist"]
+    },
+    {
+      "symptom": "Red Eyes",
+      "specialists": ["Ophthalmologist"]
+    },
+    {
+      "symptom": "Wheezing",
+      "specialists": ["Pulmonologist"]
+    },
+    {
+      "symptom": "Chest Palpitations",
+      "specialists": ["Cardiologist"]
+    },
+    {
+      "symptom": "Hand Tremors",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Hair Loss",
+      "specialists": ["Dermatologist", "Endocrinologist"]
+    },
+    {
+      "symptom": "Frequent Thirst",
+      "specialists": ["Endocrinologist"]
+    },
+    {
+      "symptom": "Ankle Swelling",
+      "specialists": ["Orthopedic Surgeon", "Cardiologist"]
+    },
+    {
+      "symptom": "Skin Itching",
+      "specialists": ["Dermatologist"]
+    },
+    {
+      "symptom": "Leg Cramps",
+      "specialists": ["Orthopedic Surgeon"]
+    },
+    {
+      "symptom": "Nosebleeds",
+      "specialists": ["Ear, Nose, and Throat (ENT) Specialist"]
+    },
+    {
+      "symptom": "Hand Swelling",
+      "specialists": ["Rheumatologist", "Orthopedic Surgeon"]
+    },
+    {
+      "symptom": "Puffy Eyes",
+      "specialists": ["Ophthalmologist", "Rheumatologist"]
+    },
+    {
+      "symptom": "Irregular Heartbeat",
+      "specialists": ["Cardiologist"]
+    },
+    {
+      "symptom": "Frequent Fatigue",
+      "specialists": ["Internal Medicine"]
+    },
+    {
+      "symptom": "Nail Changes",
+      "specialists": ["Dermatologist"]
+    },
+    {
+      "symptom": "Frequent Nosebleeds",
+      "specialists": ["Ear, Nose, and Throat (ENT) Specialist"]
+    },
+    {
+      "symptom": "Tingling Sensation",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Weight Gain",
+      "specialists": ["Endocrinologist"]
+    },
+    {
+      "symptom": "Joint Stiffness",
+      "specialists": ["Rheumatologist", "Orthopedic Surgeon"]
+    },
+    {
+      "symptom": "Chest Heaviness",
+      "specialists": ["Cardiologist"]
+    },
+    {
+      "symptom": "Burning Sensation",
+      "specialists": ["Dermatologist", "Neurologist"]
+    },
+    {
+      "symptom": "Frequent Allergies",
+      "specialists": ["Allergist"]
+    },
+    {
+      "symptom": "Hand Tingling",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Foot Swelling",
+      "specialists": ["Orthopedic Surgeon", "Podiatrist"]
+    },
+    {
+      "symptom": "Neck Pain",
+      "specialists": ["Orthopedic Surgeon", "Neurologist"]
+    },
+    {
+      "symptom": "Hair Thinning",
+      "specialists": ["Dermatologist", "Endocrinologist"]
+    },
+    {
+      "symptom": "Frequent Urge to Urinate",
+      "specialists": ["Urologist"]
+    },
+    {
+      "symptom": "Leg Swelling",
+      "specialists": ["Orthopedic Surgeon", "Cardiologist"]
+    },
+    {
+      "symptom": "Chest Fullness",
+      "specialists": ["Cardiologist"]
+    },
+    {
+      "symptom": "Skin Discoloration",
+      "specialists": ["Dermatologist"]
+    },
+    {
+      "symptom": "Muscle Spasms",
+      "specialists": ["Neurologist", "Rheumatologist"]
+    },
+    {
+      "symptom": "Difficulty Concentrating",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Frequent Skin Rashes",
+      "specialists": ["Dermatologist", "Allergist"]
+    },
+    {
+      "symptom": "Frequent Diarrhea",
+      "specialists": ["Gastroenterologist"]
+    },
+    {
+      "symptom": "Jaw Pain",
+      "specialists": ["Dentist", "Orthopedic Surgeon"]
+    },
+    {
+      "symptom": "Hand Weakness",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Difficulty Speaking",
+      "specialists": ["Speech Therapist", "Neurologist"]
+    },
+    {
+      "symptom": "Ear Ringing",
+      "specialists": ["Ear, Nose, and Throat (ENT) Specialist"]
+    },
+    {
+      "symptom": "Arm Tingling",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Knee Swelling",
+      "specialists": ["Orthopedic Surgeon"]
+    },
+    {
+      "symptom": "Back Stiffness",
+      "specialists": ["Orthopedic Surgeon", "Rheumatologist"]
+    },
+    {
+      "symptom": "Calf Pain",
+      "specialists": ["Orthopedic Surgeon"]
+    },
+    {
+      "symptom": "Frequent Vomiting",
+      "specialists": ["Gastroenterologist"]
+    },
+    {
+      "symptom": "Hip Swelling",
+      "specialists": ["Orthopedic Surgeon", "Rheumatologist"]
+    },
+    {
+      "symptom": "Hand Trembling",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Difficulty Chewing",
+      "specialists": ["Dentist", "Orthopedic Surgeon"]
+    },
+    {
+      "symptom": "Leg Tingling",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Chest Pain with Breathing",
+      "specialists": ["Pulmonologist", "Cardiologist"]
+    },
+    {
+      "symptom": "Hand Pain",
+      "specialists": ["Orthopedic Surgeon"]
+    },
+    {
+      "symptom": "Frequent Abdominal Pain",
+      "specialists": ["Gastroenterologist"]
+    },
+    {
+      "symptom": "Eye Pain",
+      "specialists": ["Ophthalmologist", "Neurologist"]
+    },
+    {
+      "symptom": "Foot Tingling",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Shoulder Pain",
+      "specialists": ["Orthopedic Surgeon"]
+    },
+    {
+      "symptom": "Frequent Constipation",
+      "specialists": ["Gastroenterologist"]
+    },
+    {
+      "symptom": "Chest Discomfort with Exertion",
+      "specialists": ["Cardiologist"]
+    },
+    {
+      "symptom": "Hand Numbness and Tingling",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Wrist Tingling",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Frequent Belching",
+      "specialists": ["Gastroenterologist"]
+    },
+    {
+      "symptom": "Leg Weakness",
+      "specialists": ["Orthopedic Surgeon", "Neurologist"]
+    },
+    {
+      "symptom": "Chest Pain with Exertion",
+      "specialists": ["Cardiologist"]
+    },
+    {
+      "symptom": "Hand Numbness and Weakness",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Frequent Heartburn",
+      "specialists": ["Gastroenterologist"]
+    },
+    {
+      "symptom": "Ear Itching",
+      "specialists": ["Ear, Nose, and Throat (ENT) Specialist"]
+    },
+    {
+      "symptom": "Arm Weakness",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Knee Stiffness",
+      "specialists": ["Orthopedic Surgeon"]
+    },
+    {
+      "symptom": "Back Pain with Leg Pain",
+      "specialists": ["Orthopedic Surgeon", "Neurologist"]
+    },
+    {
+      "symptom": "Frequent Nausea",
+      "specialists": ["Gastroenterologist"]
+    },
+    {
+      "symptom": "Eye Twitching",
+      "specialists": ["Neurologist", "Ophthalmologist"]
+    },
+    {
+      "symptom": "Foot Weakness",
+      "specialists": ["Orthopedic Surgeon", "Neurologist"]
+    },
+    {
+      "symptom": "Shoulder Stiffness",
+      "specialists": ["Orthopedic Surgeon"]
+    },
+    {
+      "symptom": "Chest Pain on Left Side",
+      "specialists": ["Cardiologist"]
+    },
+    {
+      "symptom": "Hand Weakness and Tremors",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Frequent Diarrhea with Blood",
+      "specialists": ["Gastroenterologist"]
+    },
+    {
+      "symptom": "Leg Numbness",
+      "specialists": ["Orthopedic Surgeon", "Neurologist"]
+    },
+    {
+      "symptom": "Chest Pain on Right Side",
+      "specialists": ["Cardiologist"]
+    },
+    {
+      "symptom": "Hand Swelling and Pain",
+      "specialists": ["Rheumatologist", "Orthopedic Surgeon"]
+    },
+    {
+      "symptom": "Frequent Vomiting with Blood",
+      "specialists": ["Gastroenterologist"]
+    },
+    {
+      "symptom": "Leg Tremors",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Chest Pain with Arm Pain",
+      "specialists": ["Cardiologist", "Orthopedic Surgeon"]
+    },
+    {
+      "symptom": "Hand Numbness and Trembling",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Frequent Abdominal Cramps",
+      "specialists": ["Gastroenterologist"]
+    },
+    {
+      "symptom": "Eye Redness and Pain",
+      "specialists": ["Ophthalmologist", "Neurologist"]
+    },
+    {
+      "symptom": "Foot Tingling and Weakness",
+      "specialists": ["Orthopedic Surgeon", "Neurologist"]
+    },
+    {
+      "symptom": "Shoulder Weakness",
+      "specialists": ["Orthopedic Surgeon", "Neurologist"]
+    },
+    {
+      "symptom": "Chest Pain at Rest",
+      "specialists": ["Cardiologist"]
+    },
+    {
+      "symptom": "Hand Pain and Tingling",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Knee Tremors",
+      "specialists": ["Orthopedic Surgeon"]
+    },
+    {
+      "symptom": "Back Pain with Leg Numbness",
+      "specialists": ["Orthopedic Surgeon", "Neurologist"]
+    },
+    {
+      "symptom": "Frequent Heartburn with Blood",
+      "specialists": ["Gastroenterologist"]
+    },
+    {
+      "symptom": "Ear Ringing and Pain",
+      "specialists": ["Ear, Nose, and Throat (ENT) Specialist", "Neurologist"]
+    },
+    {
+      "symptom": "Arm Trembling",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Leg Weakness and Numbness",
+      "specialists": ["Orthopedic Surgeon", "Neurologist"]
+    },
+    {
+      "symptom": "Chest Pain with Shoulder Pain",
+      "specialists": ["Cardiologist", "Orthopedic Surgeon"]
+    },
+    {
+      "symptom": "Hand Numbness and Weakness with Tremors",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Frequent Skin Rashes with Itching",
+      "specialists": ["Dermatologist", "Allergist"]
+    },
+    {
+      "symptom": "Difficulty Sleeping",
+      "specialists": ["Sleep Specialist", "Psychiatrist"]
+    },
+    {
+      "symptom": "Frequent Diarrhea with Mucus",
+      "specialists": ["Gastroenterologist"]
+    },
+    {
+      "symptom": "Leg Pain with Numbness",
+      "specialists": ["Orthopedic Surgeon", "Neurologist"]
+    },
+    {
+      "symptom": "Chest Pain with Neck Pain",
+      "specialists": ["Cardiologist", "Orthopedic Surgeon"]
+    },
+    {
+      "symptom": "Hand Swelling and Tingling",
+      "specialists": ["Rheumatologist", "Orthopedic Surgeon"]
+    },
+    {
+      "symptom": "Frequent Vomiting with Blood and Pain",
+      "specialists": ["Gastroenterologist"]
+    },
+    {
+      "symptom": "Leg Tremors with Weakness",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Chest Pain with Back Pain",
+      "specialists": ["Cardiologist", "Orthopedic Surgeon"]
+    },
+    {
+      "symptom": "Hand Pain with Weakness and Trembling",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Knee Tremors with Pain",
+      "specialists": ["Orthopedic Surgeon"]
+    },
+    {
+      "symptom": "Back Pain with Leg Numbness and Tingling",
+      "specialists": ["Orthopedic Surgeon", "Neurologist"]
+    },
+    {
+      "symptom": "Frequent Heartburn with Blood and Pain",
+      "specialists": ["Gastroenterologist"]
+    },
+    {
+      "symptom": "Ear Ringing and Pain with Dizziness",
+      "specialists": ["Ear, Nose, and Throat (ENT) Specialist", "Neurologist"]
+    },
+    {
+      "symptom": "Arm Trembling with Weakness",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Leg Weakness and Numbness with Pain",
+      "specialists": ["Orthopedic Surgeon", "Neurologist"]
+    },
+    {
+      "symptom": "Chest Pain with Shoulder Pain and Shortness of Breath",
+      "specialists": ["Cardiologist", "Orthopedic Surgeon", "Pulmonologist"]
+    },
+    {
+      "symptom": "Hand Numbness and Weakness with Tremors and Pain",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Frequent Skin Rashes with Itching and Redness",
+      "specialists": ["Dermatologist", "Allergist"]
+    },
+    {
+      "symptom": "Difficulty Sleeping with Anxiety",
+      "specialists": ["Sleep Specialist", "Psychiatrist", "Psychologist"]
+    },
+    {
+      "symptom": "Frequent Diarrhea with Mucus and Pain",
+      "specialists": ["Gastroenterologist"]
+    },
+    {
+      "symptom": "Leg Pain with Numbness and Tingling",
+      "specialists": ["Orthopedic Surgeon", "Neurologist"]
+    },
+    {
+      "symptom": "Chest Pain with Neck Pain and Shortness of Breath",
+      "specialists": ["Cardiologist", "Orthopedic Surgeon", "Pulmonologist"]
+    },
+    {
+      "symptom": "Hand Swelling and Tingling with Pain",
+      "specialists": ["Rheumatologist", "Orthopedic Surgeon"]
+    },
+    {
+      "symptom": "Frequent Vomiting with Blood and Pain and Nausea",
+      "specialists": ["Gastroenterologist"]
+    },
+    {
+      "symptom": "Leg Tremors with Weakness and Numbness",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Chest Pain with Back Pain and Shortness of Breath",
+      "specialists": ["Cardiologist", "Orthopedic Surgeon", "Pulmonologist"]
+    },
+    {
+      "symptom": "Hand Pain with Weakness and Trembling and Numbness",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Knee Tremors with Pain and Swelling",
+      "specialists": ["Orthopedic Surgeon"]
+    },
+    {
+      "symptom": "Back Pain with Leg Numbness and Tingling and Weakness",
+      "specialists": ["Orthopedic Surgeon", "Neurologist"]
+    },
+    {
+      "symptom": "Frequent Heartburn with Blood and Pain and Nausea",
+      "specialists": ["Gastroenterologist"]
+    },
+    {
+      "symptom": "Ear Ringing and Pain with Dizziness and Hearing Loss",
+      "specialists": ["Ear, Nose, and Throat (ENT) Specialist", "Neurologist", "Audiologist"]
+    },
+    {
+      "symptom": "Arm Trembling with Weakness and Numbness",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Leg Weakness and Numbness with Pain and Swelling",
+      "specialists": ["Orthopedic Surgeon", "Neurologist"]
+    },
+    {
+      "symptom": "Chest Pain with Shoulder Pain and Shortness of Breath and Fatigue",
+      "specialists": ["Cardiologist", "Orthopedic Surgeon", "Pulmonologist", "Internal Medicine"]
+    },
+    {
+      "symptom": "Hand Numbness and Weakness with Tremors and Pain and Tingling",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Frequent Skin Rashes with Itching and Redness and Swelling",
+      "specialists": ["Dermatologist", "Allergist"]
+    },
+    {
+      "symptom": "Difficulty Sleeping with Anxiety and Depression",
+      "specialists": ["Sleep Specialist", "Psychiatrist", "Psychologist"]
+    },
+    {
+      "symptom": "Frequent Diarrhea with Mucus and Pain and Nausea",
+      "specialists": ["Gastroenterologist"]
+    },
+    {
+      "symptom": "Leg Pain with Numbness and Tingling and Swelling",
+      "specialists": ["Orthopedic Surgeon", "Neurologist"]
+    },
+    {
+      "symptom": "Chest Pain with Neck Pain and Shortness of Breath and Fatigue",
+      "specialists": ["Cardiologist", "Orthopedic Surgeon", "Pulmonologist", "Internal Medicine"]
+    },
+    {
+      "symptom": "Hand Swelling and Tingling with Pain and Weakness",
+      "specialists": ["Rheumatologist", "Orthopedic Surgeon"]
+    },
+    {
+      "symptom": "Frequent Vomiting with Blood and Pain and Nausea and Diarrhea",
+      "specialists": ["Gastroenterologist"]
+    },
+    {
+      "symptom": "Leg Tremors with Weakness and Numbness and Pain",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Chest Pain with Back Pain and Shortness of Breath and Fatigue",
+      "specialists": ["Cardiologist", "Orthopedic Surgeon", "Pulmonologist", "Internal Medicine"]
+    },
+    {
+      "symptom": "Hand Pain with Weakness and Trembling and Numbness and Tingling",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Knee Tremors with Pain and Swelling and Stiffness",
+      "specialists": ["Orthopedic Surgeon"]
+    },
+    {
+      "symptom": "Back Pain with Leg Numbness and Tingling and Weakness and Stiffness",
+      "specialists": ["Orthopedic Surgeon", "Neurologist"]
+    },
+    {
+      "symptom": "Frequent Heartburn with Blood and Pain and Nausea and Vomiting",
+      "specialists": ["Gastroenterologist"]
+    },
+    {
+      "symptom": "Ear Ringing and Pain with Dizziness and Hearing Loss and Itching",
+      "specialists": ["Ear, Nose, and Throat (ENT) Specialist", "Neurologist", "Audiologist"]
+    },
+    {
+      "symptom": "Arm Trembling with Weakness and Numbness and Pain",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Leg Weakness and Numbness with Pain and Swelling and Stiffness",
+      "specialists": ["Orthopedic Surgeon", "Neurologist"]
+    },
+    {
+      "symptom": "Chest Pain with Shoulder Pain and Shortness of Breath and Fatigue and Dizziness",
+      "specialists": ["Cardiologist", "Orthopedic Surgeon", "Pulmonologist", "Internal Medicine", "Neurologist"]
+    },
+    {
+      "symptom": "Hand Numbness and Weakness with Tremors and Pain and Tingling and Swelling",
+      "specialists": ["Neurologist"]
+    },
+    {
+      "symptom": "Frequent Skin Rashes with Itching and Redness and Swelling and Pain",
+      "specialists": ["Dermatologist", "Allergist"]
+    },
+    {
+      "symptom": "Difficulty Sleeping with Anxiety and Depression and Fatigue",
+      "specialists": ["Sleep Specialist", "Psychiatrist", "Psychologist", "Internal Medicine"]
+    }
+  ]
+}

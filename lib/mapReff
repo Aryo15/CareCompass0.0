@@ -1,0 +1,429 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Hospital Map',
+      home: HospitalMap(),
+    );
+  }
+}
+
+class HospitalMap extends StatefulWidget {
+  @override
+  _HospitalMapState createState() => _HospitalMapState();
+}
+
+class _HospitalMapState extends State<HospitalMap> {
+  String enteredDestination = ""; // Store the entered destination
+  bool showPath = false; // To control path visibility
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Hospital Map'),
+      ),
+      body: SingleChildScrollView(
+        child: Container(
+          color: Colors.black, // Set the background color to black
+          child: InteractiveViewer(
+            boundaryMargin: EdgeInsets.all(20.0), // Adjust margin as needed
+            minScale: 0.5, // Minimum scale (zoom out)
+            maxScale: 10.0, // Maximum scale (zoom in)
+            child: Center(
+              child: Stack(
+                children: [
+                  // Display the custom hospital map image as a background.
+                  Image.asset(
+                    'assets/2D_hospital_map.png',
+                    width: 800.0, // Adjust the width as needed
+                    height: 800.0, // Adjust the height as needed
+                    fit: BoxFit.contain,
+                  ),
+                  // Markers
+                  Positioned(
+                    left: 65, // X-coordinate
+                    top: 240, // Y-coordinate
+                    child: Container(
+                      height: 40, // Adjust the height of the marker
+                      child: Icon(
+                        Icons.location_on,
+                        color: Colors.red,
+                        size: 40,
+                      ),
+                    ),
+                  ),
+                  Positioned(
+                    left: 380, // X-coordinate
+                    top: 270, // Y-coordinate
+                    child: Container(
+                      height: 40, // Adjust the height of the marker
+                      child: Icon(
+                        Icons.donut_small,
+                        color: Colors.blue,
+                        size: 10,
+                      ),
+                    ),
+                  ),
+                  Positioned(
+                    left: 380, // X-coordinate
+                    top: 300, // Y-coordinate
+                    child: Container(
+                      height: 40, // Adjust the height of the marker
+                      child: Icon(
+                        Icons.donut_small,
+                        color: Colors.blue,
+                        size: 10,
+                      ),
+                    ),
+                  ),
+
+                  Positioned(
+                    left: 380, // X-coordinate
+                    top: 330, // Y-coordinate
+                    child: Container(
+                      height: 40, // Adjust the height of the marker
+                      child: Icon(
+                        Icons.donut_small,
+                        color: Colors.blue,
+                        size: 10,
+                      ),
+                    ),
+                  ),
+
+                  Positioned(
+                    left: 380, // X-coordinate
+                    top: 360, // Y-coordinate
+                    child: Container(
+                      height: 40, // Adjust the height of the marker
+                      child: Icon(
+                        Icons.donut_small,
+                        color: Colors.blue,
+                        size: 10,
+                      ),
+                    ),
+                  ),
+
+                  Positioned(
+                    left: 380, // X-coordinate
+                    top: 390, // Y-coordinate
+                    child: Container(
+                      height: 40, // Adjust the height of the marker
+                      child: Icon(
+                        Icons.donut_small,
+                        color: Colors.blue,
+                        size: 10,
+                      ),
+                    ),
+                  ),
+
+                  Positioned(
+                    left: 380, // X-coordinate
+                    top: 420, // Y-coordinate
+                    child: Container(
+                      height: 40, // Adjust the height of the marker
+                      child: Icon(
+                        Icons.donut_small,
+                        color: Colors.blue,
+                        size: 10,
+                      ),
+                    ),
+                  ),
+
+                  Positioned(
+                    left: 76, // X-coordinate
+                    top: 270, // Y-coordinate
+                    child: Container(
+                      height: 40, // Adjust the height of the marker
+                      child: Icon(
+                        Icons.border_all_rounded,
+                        color: Colors.green,
+                        size: 10,
+                      ),
+                    ),
+                  ),
+                  Positioned(
+                    left: 76, // X-coordinate
+                    top: 340, // Y-coordinate
+                    child: Container(
+                      height: 40, // Adjust the height of the marker
+                      child: Icon(
+                        Icons.border_all_rounded,
+                        color: Colors.green,
+                        size: 10,
+                      ),
+                    ),
+                  ),
+                  Positioned(
+                    left: 76, // X-coordinate
+                    top: 400, // Y-coordinate
+                    child: Container(
+                      height: 40, // Adjust the height of the marker
+                      child: Icon(
+                        Icons.border_all_rounded,
+                        color: Colors.green,
+                        size: 10,
+                      ),
+                    ),
+                  ),
+                  Positioned(
+                    left: 150, // X-coordinate
+                    top: 400, // Y-coordinate
+                    child: Container(
+                      height: 40, // Adjust the height of the marker
+                      child: Icon(
+                        Icons.border_all_rounded,
+                        color: Colors.green,
+                        size: 10,
+                      ),
+                    ),
+                  ),
+                  Positioned(
+                    left: 150, // X-coordinate
+                    top: 415, // Y-coordinate
+                    child: Container(
+                      height: 40, // Adjust the height of the marker
+                      child: Icon(
+                        Icons.border_all_rounded,
+                        color: Colors.green,
+                        size: 10,
+                      ),
+                    ),
+                  ),
+                  Positioned(
+                    left: 197, // X-coordinate
+                    top: 415, // Y-coordinate
+                    child: Container(
+                      height: 40, // Adjust the height of the marker
+                      child: Icon(
+                        Icons.border_all_rounded,
+                        color: Colors.green,
+                        size: 10,
+                      ),
+                    ),
+                  ),
+                  Positioned(
+                    left: 197, // X-coordinate
+                    top: 400, // Y-coordinate
+                    child: Container(
+                      height: 40, // Adjust the height of the marker
+                      child: Icon(
+                        Icons.border_all_rounded,
+                        color: Colors.green,
+                        size: 10,
+                      ),
+                    ),
+                  ),
+                  Positioned(
+                    left: 275, // X-coordinate
+                    top: 400, // Y-coordinate
+                    child: Container(
+                      height: 40, // Adjust the height of the marker
+                      child: Icon(
+                        Icons.border_all_rounded,
+                        color: Colors.green,
+                        size: 10,
+                      ),
+                    ),
+                  ),
+                  Positioned(
+                    left: 275, // X-coordinate
+                    top: 287, // Y-coordinate
+                    child: Container(
+                      height: 40, // Adjust the height of the marker
+                      child: Icon(
+                        Icons.border_all_rounded,
+                        color: Colors.green,
+                        size: 10,
+                      ),
+                    ),
+                  ),
+                  Positioned(
+                    left: 348, // X-coordinate
+                    top: 287, // Y-coordinate
+                    child: Container(
+                      height: 40, // Adjust the height of the marker
+                      child: Icon(
+                        Icons.border_all_rounded,
+                        color: Colors.green,
+                        size: 10,
+                      ),
+                    ),
+                  ),
+                  Positioned(
+                    left: 348, // X-coordinate
+                    top: 300, // Y-coordinate
+                    child: Container(
+                      height: 40, // Adjust the height of the marker
+                      child: Icon(
+                        Icons.border_all_rounded,
+                        color: Colors.green,
+                        size: 10,
+                      ),
+                    ),
+                  ),
+                  Positioned(
+                    left: 348, // X-coordinate
+                    top: 330, // Y-coordinate
+                    child: Container(
+                      height: 40, // Adjust the height of the marker
+                      child: Icon(
+                        Icons.border_all_rounded,
+                        color: Colors.green,
+                        size: 10,
+                      ),
+                    ),
+                  ),
+                  Positioned(
+                    left: 348, // X-coordinate
+                    top: 360, // Y-coordinate
+                    child: Container(
+                      height: 40, // Adjust the height of the marker
+                      child: Icon(
+                        Icons.border_all_rounded,
+                        color: Colors.green,
+                        size: 10,
+                      ),
+                    ),
+                  ),
+                  Positioned(
+                    left: 348, // X-coordinate
+                    top: 400, // Y-coordinate
+                    child: Container(
+                      height: 40, // Adjust the height of the marker
+                      child: Icon(
+                        Icons.border_all_rounded,
+                        color: Colors.green,
+                        size: 10,
+                      ),
+                    ),
+                  ),
+                  Positioned(
+                    left: 348, // X-coordinate
+                    top: 420, // Y-coordinate
+                    child: Container(
+                      height: 40, // Adjust the height of the marker
+                      child: Icon(
+                        Icons.border_all_rounded,
+                        color: Colors.green,
+                        size: 10,
+                      ),
+                    ),
+                  ),
+                  // ... Add more markers as needed
+                  if (showPath)
+                    PathConnectingMarkers(), // Show path conditionally
+                ],
+              ),
+            ),
+          ),
+        ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          // Show a dialog to enter the destination
+          showDialog(
+            context: context,
+            builder: (BuildContext context) {
+              return AlertDialog(
+                title: Text('Enter Destination'),
+                content: TextField(
+                  onChanged: (value) {
+                    setState(() {
+                      enteredDestination = value;
+                    });
+                  },
+                ),
+                actions: [
+                  TextButton(
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                    },
+                    child: Text('Cancel'),
+                  ),
+                  TextButton(
+                    onPressed: () {
+                      // You can perform path calculation here if needed
+                      // For now, just close the dialog and show the path
+                      setState(() {
+                        showPath = true;
+                      });
+                      Navigator.of(context).pop();
+                    },
+                    child: Text('OK'),
+                  ),
+                ],
+              );
+            },
+          );
+        },
+        child: Icon(Icons.directions),
+      ),
+    );
+  }
+}
+
+class PathConnectingMarkers extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return CustomPaint(
+      painter: PathPainter(),
+    );
+  }
+}
+
+class PathPainter extends CustomPainter {
+  @override
+  void paint(Canvas canvas, Size size) {
+    final paint = Paint()
+      ..color = Colors.green // Set the color of the path
+      ..style = PaintingStyle.stroke // Set the style to stroke
+      ..strokeWidth = 2.0; // Set the width of the path
+
+    final path = Path();
+
+    // Define the coordinates of the markers (SP, PC, DC)
+    final spCoordinates = Offset(65, 240);
+    final pcCoordinates = [
+      Offset(76, 270),
+      Offset(76, 340),
+      Offset(76, 400),
+      Offset(150, 400),
+      Offset(150, 415),
+      Offset(197, 415),
+      Offset(197, 400),
+      Offset(275, 400),
+      Offset(275, 287),
+      Offset(348, 287),
+      Offset(348, 300),
+      Offset(348, 330),
+      Offset(348, 360),
+      Offset(348, 400),
+      Offset(348, 420),
+    ];
+
+    // Start the path at the SP coordinates
+    path.moveTo(spCoordinates.dx, spCoordinates.dy);
+
+    // Draw lines from SP to PC markers
+    for (final pcCoord in pcCoordinates) {
+      path.lineTo(pcCoord.dx, pcCoord.dy);
+    }
+
+    // You can add more code here to draw lines based on the entered destination
+    // Example: path.lineTo(destinationX, destinationY);
+
+    canvas.drawPath(path, paint);
+  }
+
+  @override
+  bool shouldRepaint(covariant CustomPainter oldDelegate) {
+    return false;
+  }
+}

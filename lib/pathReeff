@@ -1,0 +1,98 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: IndoorMap(),
+    );
+  }
+}
+
+class IndoorMap extends StatefulWidget {
+  @override
+  _IndoorMapState createState() => _IndoorMapState();
+}
+
+class _IndoorMapState extends State<IndoorMap> {
+  double _scale = 1.0; // Store the current scale
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Indoor Map'),
+      ),
+      body: GestureDetector(
+        onScaleUpdate: (details) {
+          setState(() {
+            // Update the scale factor
+            _scale = details.scale;
+          });
+        },
+        child: Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              colors: [
+                Colors.purple,
+                Colors.black,
+              ],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+            ),
+          ),
+          child: Center(
+            child: Transform.scale(
+              scale: _scale, // Apply the scale factor
+              child: Stack(
+                children: [
+                  // Display the indoor map image as the background
+                  Image.asset(
+                    'assets/indoor_map.png',
+                    width: 800.0,
+                    height: 600.0,
+                    fit: BoxFit.contain,
+                  ),
+                  // Markers and paths go here
+                  CustomPaint(
+                    painter: PathPainter(),
+                  ),
+                ],
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class PathPainter extends CustomPainter {
+  @override
+  void paint(Canvas canvas, Size size) {
+    final paint = Paint()
+      ..color = Colors.green
+      ..style = PaintingStyle.stroke
+      ..strokeWidth = 2.0;
+
+    final path = Path();
+
+    // Define your path coordinates here using moveTo and lineTo methods
+    path.moveTo(100, 200);
+    path.lineTo(200, 200);
+    path.lineTo(200, 300);
+    path.lineTo(100, 300);
+
+    // Draw the path
+    canvas.drawPath(path, paint);
+  }
+
+  @override
+  bool shouldRepaint(covariant CustomPainter oldDelegate) {
+    return false;
+  }
+}
